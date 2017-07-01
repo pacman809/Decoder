@@ -1,0 +1,107 @@
+#!/bin/bash
+
+GM=~/Scripts/project/STUDD/GM.txt
+HONDA=~/Scripts/project/STUDD/HONDA.txt
+MAKEMODEL=~/Scripts/project/STUDD/MAKE-MODEL.txt
+country=~/Scripts/project/STUDD/country.txt
+year=~/Scripts/project/STUDD/year.txt
+location=~/Scripts/project/STUDD/list.txt
+
+
+
+    Honda() #WORKING
+{            
+            mdleng=$(echo "$four$five$six")
+            MODELandENGINE=$(grep -i "$mdleng  :" $MAKEMODEL | cut -d ":" -f2 | cut -d "/" -f1 )
+            
+            HONDAENGINE=$(grep -i "$mdleng  :" $MAKEMODEL | cut -d ":" -f2 | cut -d "/" -f2)
+            
+            PLANT=$(grep -i PLANT$eleven $MAKEMODEL | cut -d ":" -f2)
+            
+            SEQUENCE=$(echo "$twelve$thirteen$fourteen$fifteen$sixteen$seventeen")
+            equtrimlvl=$(echo "$four$five$six$eight")
+            EQUIPTMENTTRIMLEVEL=$(grep "$equtrimlvl  :" $HONDA   | cut -d ":" -f2)
+            
+            YEAR=$(grep "$ten  " $year  | cut -d ":" -f2)
+            
+            COUNTRY=$(grep "$one  :" $country | cut -d ":" -f2)
+
+            LOADNUMBER=$(grep -i "$filename" ~/Vin_search/M6648241/text/* | cut -d '/' -f7 | cut -d "." -f1)
+
+            echo -e "VIN: $filename\nCOUNTRY OF ORIGIN: $COUNTRY\nYEAR: $YEAR\nMANUFACTURER: $MFRandTYPE\nMODEL: $MODELandENGINE\nTRIM: $EQUIPTMENTTRIMLEVEL\nENGINE: $HONDAENGINE\nPLANT: $PLANT\nSEQUENCE:  $SEQUENCE\n\n"   
+
+            unset mdleng MODELandENGINE PLANT SEQUENCE equtrimlvl EQUIPTMENTTRIMLEVEL YEAR COUNTRY LOADNUMBER HONDAENGINE
+            
+            return 0 
+}
+
+    GM() #NOT WORKING - PLANT
+{
+            mdleng=$(echo "$four$five$six")
+            MODELandENGINE=$(grep -i "$mdleng  :" $GM | cut -d ":" -f2 | cut -d "/" -f1 )
+            MODEL=$(grep -i "$mdleng  :" $GM | cut -d ":" -f2 | cut -d "/" -f1 | cut -d " " -f2)
+            ENGINE=$(grep -i "<${MODEL}ENGINE${eight}>" $GM | cut -d ">" -f2)
+            
+            #PLANT=$(grep -i PLANT$eleven $HONDAcar | cut -d ":" -f2)
+            
+            SEQUENCE=$(echo "$twelve$thirteen$fourteen$fifteen$sixteen$seventeen")
+            
+            EQUIPTMENTTRIMLEVEL=$(grep -i "$mdleng  :" $GM | cut -d ':' -f2 | cut -d '/' -f2 )
+            
+            
+            YEAR=$(grep "$ten  " $year  | cut -d ":" -f2)
+            
+            COUNTRY=$(grep "$one  :" $country | cut -d ":" -f2)
+
+            echo -e "\n\nVIN: $filename\nCOUNTRY OF ORIGIN: $COUNTRY\nYEAR: $YEAR\nMANUFACTURER: $MFRandTYPE\nMODEL: $MODELandENGINE\nTRIM:     $EQUIPTMENTTRIMLEVEL\nENGINE: $ENGINE\nPLANT: $PLANT\nSEQUENCE:  $SEQUENCE\n\n"   
+           
+             unset mdleng MODELandENGINE PLANT SEQUENCE equtrimlvl EQUIPTMENTTRIMLEVEL YEAR COUNTRY LOADNUMBER MODEL ENGINE filename
+}
+
+    Hyundai()
+{
+        echo "Hyundai NOT IN DATABASE YET"
+}
+
+    GMC()
+{
+        echo "GMC NOT IN DATABASE YET"
+}
+
+
+    
+
+one=$(echo "$1" | cut -b 1) 
+two=$(echo "$1" | cut -b 2)
+three=$(echo "$1" | cut -b 3)
+four=$(echo "$1" | cut -b 4)
+five=$(echo "$1" | cut -b 5)
+six=$(echo "$1" | cut -b 6)
+seven=$(echo "$1" | cut -b 7)
+eight=$(echo "$1" | cut -b 8)
+nine=$(echo "$1" | cut -b 9)
+ten=$(echo "$1" | cut -b 10)
+eleven=$(echo "$1" | cut -b 11)
+twelve=$(echo "$1" | cut -b 12)
+thirteen=$(echo "$1" | cut -b 13)
+fourteen=$(echo "$1" | cut -b 14)
+fifteen=$(echo "$1" | cut -b 15)
+sixteen=$(echo "$1" | cut -b 16)
+seventeen=$(echo "$1" | cut -b 17)
+
+
+filename=$(echo "$one$two$three$four$five$six$seven$eight$nine$ten$eleven$twelve$thirteen$fourteen$fifteen$sixteen$seventeen") # filename saved as VIN
+
+
+    mfrtype=$(echo "$one$two$three")
+    MFRandTYPE=$(grep -i "$mfrtype  :" $MAKEMODEL | cut -d ":" -f2)
+   
+    MAKE1=$(echo "$MFRandTYPE" | cut -d " " -f1) 
+    MAKE=$(grep -i "$MAKE1   :" $MAKEMODEL | cut -d ':' -f2)
+  
+    
+    $MAKE
+    unset MAKE1 MAKE
+    
+    
+  

@@ -1,0 +1,169 @@
+
+
+#TRIM LEVEL
+
+UB35  :Acura V6 AWD TECH
+
+DE23  :Base
+DE28  :ILX A-Spec PREMIUM
+YD44  :MDX NAVI
+UB18  :TLX ELite ASPEC
+
+YF51  :Pilot LX
+YF61  :Pilot LX
+YK21  :Ridgeline Sport
+YK31  :Ridgeline Sport
+
+YK22  :Ridgeline RT
+YK32  :Ridgeline RT
+RL52  :Odyssey LX
+
+RW13  :CR-V LX
+RW23  :CR-V LX
+RW53  :CR-V LX
+RW63  :CR-V LX
+RU53  :HR-V LX
+RU63  :HR-V LX
+RL53  :Odyssey SE
+YF53  :Pilot EX
+YF63  :Pilot EX
+
+RL54  :Odyssey EX
+YF54  :Pilot EX with Honda Sensing
+YF64  :Pilot EX with Honda Sensing
+YK24  :Ridgeline RT-S
+YK34  :Ridgeline RT-S
+
+RW15  :CR-V EX
+RW25  :CR-V EX
+RW55  :CR-V EX
+RW65  :CR-V EX
+RU55  :HR-V EX
+RU65  :HR-V EX
+YF55  :Pilot EX-L
+YF65  :Pilot EX-L
+YK25  :Ridgeline RTL
+YK35  :Ridgeline RTL
+
+RL56  :Odyssey EX-L, EX-L NAVI, EX-L RES
+YF56  :Pilot EX-L with Honda Sensing
+YF66  :Pilot EX-L with Honda Sensing
+YK26  :Ridgeline RTL-T
+YK36  :Ridgeline RTL-T
+
+RU57  :HR-V EX-L NAVI
+RU67  :HR-V EX-L NAVI
+YF57  :Pilot EX-L NAVI
+YF67  :Pilot EX-L NAVI
+YK27  :Ridgeline RTL-E
+YK37  :Ridgeline RTL-E
+
+RW18  :CR-V EX-L, EX-L NAVI
+RW28  :CR-V EX-L, EX-L NAVI
+RW58  :CR-V EX-L, EX-L NAVI
+RW68  :CR-V EX-L, EX-L NAVI
+YF58  :Pilot EX-L RES
+YF68  :Pilot EX-L RES
+YK28  :Ridgeline Black Edition
+YK38  :Ridgeline Black Edition
+
+RW19  :CR-V Touring
+RW29  :CR-V Touring
+RW59  :CR-V Touring
+RW69  :CR-V Touring
+RL59  :Odyssey Touring, Touring-Elite
+YF59  :Pilot Touring
+YF69  :Pilot Touring
+
+YF50  :Pilot Elite
+YF60  :Pilot Elite
+
+**************************************************************************
+
+CR21  :Accord 4-Dr Sport Special Edition
+CR31  :Accord 4-Dr Sport Special Edition
+
+FK72  :Civic 5-Dr LX
+
+CR23  :Accord 4-Dr LX
+CR33  :Accord 4-Dr LX
+CT13  :Accord 2-Dr LX-S
+CT23  :Accord 2-Dr LX-S
+CR63  :Accord Hybrid
+FC13  :Civic 4-Dr EX
+FC23  :Civic 4-Dr EX
+FC33  :Civic 2-Dr EX
+FC43  :Civic 2-Dr EX
+FK73  :Civic 5-Dr LX with Honda Sensing
+
+CR24  :Accord 4-Dr LX With Honda Sensing
+CR34  :Accord 4-Dr LX With Honda Sensing
+CT14  :Accord 2-Dr LX-S With Honda Sensing
+CT24  :Accord 2-Dr LX-S With Honda Sensing
+FC14  :Civic 4-Dr EX With Honda Sensing
+FC24  :Civic 4-Dr EX With Honda Sensing
+FK74  :Civic 5-Dr Sport
+
+CR25  :Accord 4-Dr Sport
+CR35  :Accord 4-Dr Sport
+CT15  :Accord 2-Dr EX With Honda Sensing
+CT25  :Accord 2-Dr EX With Honda Sensing
+CR65  :Accord Hybrid EX-L
+FC15  :Civic 4-Dr LX
+FC25  :Civic 4-Dr LX
+FC35  :Civic 2-Dr LX
+FC45  :Civic 2-Dr LX
+FK75  :Civic 5-Dr EX
+GK55  :Fit LX
+
+CR26  :Accord 4-Dr Sport With Honda Sensing
+CR36  :Accord 4-Dr Sport With Honda Sensing
+CT16  :Accord 2-Dr EX-L NAVI With Honda Sensing
+CT26  :Accord 2-Dr EX-L NAVI With Honda Sensing
+FC16  :Civic 4-Dr With Honda Sensing
+FC26  :Civic 4-Dr With Honda Sensing
+FK76  :Civic 5-Dr With Honda Sensing
+
+CR27  :Accord 4-Dr EX
+CR37  :Accord 4-Dr EX
+CT17  :Accord 2-Dr EX
+CT27  :Accord 2-Dr EX
+CR67  :Accord Hybrid Touring
+FC17  :Civic 4-Dr EX, EX-L, EX-L NAVI
+FC27  :Civic 4-Dr EX, EX-L, EX-L NAVI
+FC37  :Civic 2-Dr EX-L
+FC47  :Civic 2-Dr EX-L
+FK77  :Civic 5-Dr EX-L NAVI
+ZC47  :Clarity Fuel Cell
+GK57  :Fit EX
+
+CR28  :Accord 4-Dr EX-L, EX-L V6
+CR38  :Accord 4-Dr EX-L, EX-L V6
+CT18  :Accord 2-Dr EX-L, EX-L V6
+CT28  :Accord 2-Dr EX-L, EX-L V6
+FC18  :Civic 4-Dr EX With Honda Sensing, EX-L With Honda Sensing
+FC28  :Civic 4-Dr EX With Honda Sensing, EX-L With Honda Sensing
+FK78  :Civic 5-Dr EX-L With Honda Sensing
+GK58  :Fit EX-L
+
+CR29  :Accord 4-Dr EX-L NAVI With Honda Sensing, Touring
+CR39  :Accord 4-Dr EX-L NAVI With Honda Sensing, Touring
+CT19  :Accord 2-Dr EX-L V6 NAVI With Honda Sensing
+CT29  :Accord 2-Dr EX-L V6 NAVI With Honda Sensing
+FC19  :Civic 4-Dr Touring
+FC29  :Civic 4-Dr Touring
+FC39  :Civic 2-Dr Touring
+FC49  :Civic 2-Dr Touring
+FK79  :Civic 5-Dr Sport Touring
+GK59  :Fit EX-L NAVI
+
+CR20  :Accord 4-Dr EX with Honda Sensing, EX-L V6 NAVI With Honda Sensing
+CR30  :Accord 4-Dr EX with Honda Sensing, EX-L V6 NAVI With Honda Sensing
+CT20  :Accord 2-Dr Touring
+CT10  :Accord 2-Dr Touring
+FC30  :Civic 2-Dr LX-P
+FC40  :Civic 2-Dr LX-P
+
+##########################################################################
+
+

@@ -1,0 +1,220 @@
+Honda   :Honda
+Acura   :Honda
+
+Chevrolet   :GM
+CHEVROLET   :GM
+GMC   :GM
+Buick   :GM
+Cadillac   :GM
+Opel   :GM
+Holden   :GM
+General   :GM
+Isuzu   :GM
+Navistar   :GM
+
+Hyundai   :Hyundai
+
+
+
+
+
+
+
+
+
+
+
+
+JHM  :Honda Motor Co - Passenger Vehicle
+19X  :Honda Mfg. Of Indiana - Passenger Vehicle
+1HG  :Honda Of America Mfg. - Passenger Vehicle
+2HG  :Honda Of Canada Mfg. - Passenger Vehicle
+2HK  :Honda Of Canada Mfg. - Multipurpose Passenger Vehicle
+3CZ  :Honda De Mexico - Multipurpose Passenger Vehicle
+3HG  :Honda De Mexico - Passenger Vehicle
+5FN  :Honda Mfg. Of Alabama - Multipurpose Passenger Vehicle
+5J6  :Honda Of America - Multipurpose Passenger Vehicle
+SHH  :Honda Of The UK Mfg. - Passenger Vehicle
+5FP  :Honda Mfg. Of Alabama - Light Duty Truck
+7FA  :Honda Mfg Of Indiana - Multipurpose Passenger Vehicle
+19U  :Acura of USA (Honda) - Passenger Vehicle
+5J8  :Acura of USA (Honda) - Multipurpose Passenger Vehicle
+5FR  :Acura of USA (Honda) - Multipurpose Passenger Vehicle
+
+5XY  :Hyundai of USA - Multipurpose Passenger Vehicle
+--------------------------------------------------------------------------
+
+
+#BODY AND TRANSMISSION TYPE
+
+
+--------------------------------------------------------------------------
+
+#PLANT
+PLANTA  :Marysville, Ohio (USA)
+PLANTC  :Sayama, Saitama (Japan)
+PLANTE  :Greensburg, Indiana (USA)
+PLANTH  :Alliston, Ontario (Canada)
+PLANTM  :Celaya, Guanajuato (Mexico)
+PLANTS  :Suzuka, Mie (Japan)
+PLANTT  :Takanezawa, Tochigi (Japan)
+PLANTU  :Swindon, Wiltshire (UK)
+PLANTB  :Lincoln, Alabama (USA)
+PLANTL  :East Liberty, Ohio (USA)
+PLANTG  :West Point, Georgia
+
+
+1F  :Fairfax KS
+1U  :Detroit Hamtramck MI
+10  :Lansing - Grand River MI
+14  :Orion MI
+15  :Bowling Green KY
+17  :Lordstown OH
+1X  :Non Production/Non-Saleable Build
+
+29  :Oshawa #1 (OSH) ONT 
+
+3S  :Ramos Arizpe Mexico
+3L  :San Luis Potosi Mexico
+
+6L  :Elizabeth SA
+
+KC  :Changwon S. Korea
+
+WG  :Gilwice Poland
+
+LA  :Jinqiao East China
+
+--------------------------------------------------------------------------
+
+
+
+#GM Passenger Cars 2017-2018
+
+1G1  :Chevrolet of USA - Passenger Car
+1G4  :Buick of USA - Passenger Car  
+1G6  :Cadillac of USA - Passenger Car
+1G0  :Opel of USA - Passenger Car
+
+2G1  :Chevrolet of Canada - Passenger Car
+2G4  :Buick of Canada - Passenger Car
+2G6  :Cadillac of Canada - Passenger Car
+
+3G1  :Chevrolet of Mexico - Passenger Car
+
+KL8  :Chevrolet of Korea - Passenger Car
+6G3  :Chevrolet Holden - Passenger Car
+
+W04  :Buick Adam Opel AG - Passenger Car
+LRE  :Cadillac SAIC GM - Passenger Car
+
+--------------------------------------------------------------------------
+
+#GM Light Duty Truck 2017-1018
+
+1GC  :Chevrolet of USA - Light Duty Truck
+1GT  :Gmc Of USA - Light Duty Truck
+
+3GC  :Chevrolet of USA - Light Duty Truck
+3GT  :Gmc of USA - Light Duty Truck
+
+3N6  :Chevrolet Mfg. By Nissan for General Motors
+
+--------------------------------------------------------------------------
+
+#GM MPV 2017-2018
+
+5GA  :Buick of USA - Multipurpose Passenger Vehicle
+1GY  :Cadillac of USA - Multipurpose Passenger Vehicle
+1GN  :Chevrolet of USA - Multipurpose Passenger Vehicle
+1GK  :Gmc of USA - Multipurpose Passenger Vehicle
+
+2GN  :Chevrolet of Canada - Multipurpose Passenger Vehicle
+2GK  :Gmc of Canda - Multipurpose Passenger Vehicle
+
+3GN  :Chevrolet of Mexico - Multipurpose Passenger Vehicle
+3G0  :Holden of Mexico - Multipurpose Passenger Vehicle
+
+KL4  :Buick of Korea - Multipurpose Passenger Vehicle
+LRB  :Buick of SAIC - Multipurpose Passenger Vehicle
+
+KL7  :General Motors of Korea - Multipurpose Passenger Vehicle
+
+--------------------------------------------------------------------------
+
+#Incomplete
+
+1GB  :Chevrolet of USA - Incomplete
+54D  :Spartan Motors Chassis Inc USA - Incomplete
+1GD  :Gmc of USA - Incomplete
+1HA  :Navistar - Incomplete
+
+2GE  :Cadillac of Canada - Incomplete
+
+3GB  :Chevrolet of Mexico - Incomplete
+3GD  :GMC of Mexico - Incomplete
+
+JAL  :Isuzu Motors Ltd. - Incomplete
+
+--------------------------------------------------------------------------
+
+#BUS
+
+1GA  :Chevrolet of USA - Bus 
+1GJ  :Gmc of USA - Bus
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+#Acura Passenger Cars
+
+AcuraDE3  :ILX
+AcuraDE2  :ILX
+AcuraDE3  :ILX
+
+AcuraUB3  :TLX
+AcuraUB1  :TLX
+
+AcuraYD4  :MDX
+AcuraYD3  :MDX
+AcuraTB4  :RDX AWD  /
+--------------------------------------------------------------------------
+
+#Honda Passenger Cars
+
+CR2  :Accord 4-Dr /K24W1
+CR3  :Accord 4-Dr /J35Y1
+CR6  :Accord Hybrid /LFA1
+CT1  :Accord 2-Dr /K24W1
+CT2  :Accord 2-Dr /J35Y1, J35Y2
+FC1  :Civic 4-Dr /L15B7
+FC2  :Civic 4-Dr /K20C2
+FC3  :Civic 2-Dr /L15B7
+FC4  :Civic 2-Dr /K20C2
+FK7  :Civic 5-Dr /L15BA
+GK5  :Fit /L15B1, L15B3
+RM3  :CR-V 2WD  /
+RM4  :CR-V AWD  /
+ZF1  :CR-Z  /
+ZC4  :Clarity /MCF41
+
+--------------------------------------------------------------------------
+
+#Honda Trucks:) lol
+
+RL5  :Odyssey /J35Z8
+RU5  :HR-V 2WD  /R18Z9
+RU6  :HR-V AWD /R18Z9
+RW1  :CR-V 2WD /L15BE
+RW2  :CR-V AWD /L15BE
+RW5  :CR-V 2WD /K24W9, K24V9
+RW6  :CR-V AWD /K24W9, K24V9
+YF5  :Pilot 2WD /J35Y6
+YF6  :Pilot AWD /J35Y6
+YK2  :Ridgeline 2WD /J35Y6
+YK3  :Ridgeline AWD /J35Y6
+
+#HYUNDAI
+
+ZUD  :Santa Fe Sport /2.4-litre GDI four-cylinder
+--------------------------------------------------------------------------
