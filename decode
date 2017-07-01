@@ -1,11 +1,11 @@
 #!/bin/bash
 
-GM=~/Scripts/project/STUDD/GM.txt
-HONDA=~/Scripts/project/STUDD/HONDA.txt
-MAKEMODEL=~/Scripts/project/STUDD/MAKE-MODEL.txt
-country=~/Scripts/project/STUDD/country.txt
-year=~/Scripts/project/STUDD/year.txt
-location=~/Scripts/project/STUDD/list.txt
+GM=~/Decoder/GM.txt
+HONDA=~/Decoder/HONDA.txt
+MAKEMODEL=~/Decoder/MAKE-MODEL.txt
+country=~/Decoder/country.txt
+year=~/Decoder/year.txt
+location=~/Decoder/list.txt
 
 
 
