@@ -11,6 +11,7 @@ location=~/Decoder/list.txt
 
     Honda() #WORKING
 {            
+
             mdleng=$(echo "$four$five$six")
             MODELandENGINE=$(grep -i "$mdleng  :" $MAKEMODEL | cut -d ":" -f2 | cut -d "/" -f1 )
             
@@ -28,7 +29,7 @@ location=~/Decoder/list.txt
 
             LOADNUMBER=$(grep -i "$filename" ~/Vin_search/M6648241/text/* | cut -d '/' -f7 | cut -d "." -f1)
 
-            echo -e "VIN: $filename\nCOUNTRY OF ORIGIN: $COUNTRY\nYEAR: $YEAR\nMANUFACTURER: $MFRandTYPE\nMODEL: $MODELandENGINE\nTRIM: $EQUIPTMENTTRIMLEVEL\nENGINE: $HONDAENGINE\nPLANT: $PLANT\nSEQUENCE:  $SEQUENCE\n\n"   
+            echo -e "/n/nVIN: $filename\nCOUNTRY OF ORIGIN: $COUNTRY\nYEAR: $YEAR\nMANUFACTURER: $MFRandTYPE\nMODEL: $MODELandENGINE\nTRIM: $EQUIPTMENTTRIMLEVEL\nENGINE: $HONDAENGINE\nPLANT: $PLANT\nSEQUENCE:  $SEQUENCE\n\n"   
 
             unset mdleng MODELandENGINE PLANT SEQUENCE equtrimlvl EQUIPTMENTTRIMLEVEL YEAR COUNTRY LOADNUMBER HONDAENGINE
             
