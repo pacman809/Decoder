@@ -192,6 +192,7 @@ FC2  :Civic 4-Dr /K20C2
 FC3  :Civic 2-Dr /L15B7
 FC4  :Civic 2-Dr /K20C2
 FK7  :Civic 5-Dr /L15BA
+FK8  :Civic 5-Dr /Unknown
 GK5  :Fit /L15B1, L15B3
 RM3  :CR-V 2WD  /
 RM4  :CR-V AWD  /
